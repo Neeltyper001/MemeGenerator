@@ -1,0 +1,11 @@
+.main{
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    transform:translate(-50%);
+    width: 70%;
+    /* border: 5px solid red; */
+    border-radius: 6px;
+    box-shadow:  0 0 13px black;
+    padding: 34px;
+}

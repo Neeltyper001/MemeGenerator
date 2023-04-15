@@ -1,0 +1,274 @@
+ @media screen and (min-width: 1800px){
+
+    .header {
+        padding: 35px;        
+    }
+
+    .image {
+        height: 113px;
+        width: 113px;
+    }
+
+    .header .heading {
+        font-size: 100px;
+    }
+
+    .quoteBox .quote{
+        font-size: 25px;
+    }
+
+    .quote {
+        font-size: 28px;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .main .form{
+        gap: 85px;
+    }
+
+    .form input{
+        font-size: 30px;
+    }
+
+    .form button{
+        font-size: 30px;
+    }
+ }
+
+
+ @media screen and (max-width: 1080px){
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;       
+    }
+
+     .image {
+        height: 113px;
+        width: 113px;
+    }
+
+    .quoteBox .quote{
+        font-size: 25px;
+    }
+
+
+    .form input{
+        font-size: 20px;
+    }
+
+    .form button{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .imageHolder .memeImage{
+        width: 400px;
+        height: 400px;
+    }
+ }
+
+ @media screen and (max-width: 741px){
+
+    .header {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        gap: 15px;   
+    }
+
+    .header .heading{
+        font-size: 52px;
+        text-align:center;
+    }
+
+    .quoteBox {
+        gap: 10px;
+    }
+
+    .quoteBox .quote{
+        font-size: 23px;
+        text-align:center;
+    }
+
+    .form{
+        gap: 30px;
+        place-items: center;
+        grid-template: 40px 40px /1fr
+    }
+    .form input{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .form button{
+        font-size: 21px;
+        padding: 10px;
+    }
+
+    .form .memeImage{
+        height: 220px;
+        width: 80%;
+    }
+ }
+
+ @media screen and (min-width: 540px) and (max-width:740px){
+    .form .memeImage{
+        height: 320px;
+        width: 80%;
+    }
+ }
+
+ @media screen and (min-width: 392px) and (max-width: 539px){
+
+    .header .heading{
+        font-size: 40px;        
+    }
+
+    .form .memeImage{
+        height: 220px;
+        width: 60%;
+    }
+    .form .top--text{
+        font-size: 18px;
+    }
+
+    .form .bottom--text{
+        font-size: 18px;
+    }
+
+}
+@media screen and (min-width:377px) and (max-width: 391px){
+    .header {
+        gap: 7px;
+    }
+
+    .header .image{
+        height: 90px;
+        width: 90px;
+    }
+
+    .header .heading{
+        font-size: 40px;
+    }
+
+    .header .quote {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form .memeImage {
+        height: 220px;
+        width: 80%;
+    }
+
+    .form .top--text{
+        font-size: 18px;
+    }
+
+    .form .bottom--text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 371px) and (max-width: 376px){
+    .header {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .header .heading{
+        font-size: 42px;
+    }
+
+    .header .quote{
+        font-size: 18px;
+    }
+
+    .main {
+        margin-top: 10px;
+    }
+
+    .main .form{
+        gap: 10px;
+    }
+
+    .main Input{
+        font-size: 18px;
+    }
+
+    .form .form--button{
+        font-size: 15px;
+    }
+
+    .form .memeImage{
+        height: 170px;
+        width: 75%;
+    }
+
+    .form .top--text{
+        font-size: 18px;
+    }
+
+    .form .bottom--text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:370px){
+    .header {
+        gap: 7px;        
+    }
+
+    .header .heading {
+        font-size: 35px;
+    }
+
+    .quote{
+        font-size: 18px;
+    }
+
+    .main{
+        margin-top:30px;
+    }
+
+    .form{
+        gap: 15px;
+    }
+
+    .form .memeInput{
+        font-size: 20px;
+    }
+
+
+     .form--button{
+        padding: 5px;
+        font-size: 17px;
+    }
+
+    .form .top--text{
+        font-size: 15px;
+    }
+
+    .form .bottom--text{
+        font-size: 15px;
+    }
+}
+
+@media screen and  (max-width: 325px){
+    .header .heading{
+        font-size: 35px;
+    }
+
+    .form .top--text{
+        font-size: 17px;
+    }
+
+    .form .bottom--text{
+        font-size: 17px;
+    }
+}

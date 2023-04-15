@@ -1,0 +1,99 @@
+.form{
+    display: grid;
+    grid-template:40px 40px /1fr 1fr;
+    gap: 17px;
+}
+
+.form input{
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-holder{
+    grid-column: 1 / -1; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form button{   
+    background-color: #A818DA;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1%;
+}
+
+.form .memeImage{
+    height: 460px;
+    width: 460px;
+    border-radius:5px;
+}
+
+.image-holder{
+    grid-column: 1 / -1;
+    position: relative;
+    display:flex;
+    width: 100%;
+    justify-content:center;
+}
+
+.image-holder .top--text{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform:translate(-50%);
+    color: yellow;
+    background: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.image-holder .bottom--text{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform:translate(-50%);
+    color: Yellow;
+    background: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* @media screen and (min-width: 2500px){
+
+    .header {
+        padding: 35px;        
+    }
+
+    .image {
+        height: 113px;
+        width: 113px;
+    }
+
+    .header .heading {
+        font-size: 100px;
+    }
+
+    .quote {
+        font-size: 28px;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .main .form{
+        gap: 85px;
+    }
+
+    .top-text, .bottom-text{
+        font-size: 30px;
+    }
+
+    .form--button{
+        font-size: 30px;
+    }
+ } */

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    box-sizing: border-box;
+    justify-content:space-around;
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+}
+
+.header .heading{
+    font-size: 70px;
+}
+
+.quoteBox{
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+.quoteBox .quote{
+    justify-content:end;
+    font-size: 18px;
+}
+
